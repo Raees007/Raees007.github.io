@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+
+
+
+  background-image: url("../images/leaves-pattern.png");
+}
+
+.our-content {
+  font-family: 'Raleway', sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  line-height: 2.5em;
+  font-weight: 900;
+}
+
+button:hover{
+  background-color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: orange;
+}
